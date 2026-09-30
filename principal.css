@@ -1,0 +1,49 @@
+body {
+  margin: 0; /* Elimina el margen por defecto del body */
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.barra-superior {
+  background-color: #6a0dad; /* Un color morado oscuro para la barra */
+  color: white;
+  padding: 20px 30px; /* Padding para el contenido de la barra */
+  display: flex;
+  justify-content: space-between; /* Para separar el título y el botón */
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+.barra-superior .titulo {
+  font-size: 1.2rem; /* Tamaño de fuente para el título */
+  font-weight: bold;
+}
+
+.barra-superior .boton-iniciar {
+  background-color: #9370db; /* Un morado más claro para el botón */
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: none; /* Si usas un enlace para el botón */
+}
+
+.barra-superior .boton-iniciar:hover {
+  background-color: #7d3f9a; /* Color al pasar el ratón */
+}
+
+.contenido-principal {
+  padding: 20px; /* Espacio para el contenido debajo de la barra */
+  text-align: center;
+}
+
+.imagen-bart {
+  max-width: 280px;   /* Cambia este valor si la quieres aún más pequeña o más grande */
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
